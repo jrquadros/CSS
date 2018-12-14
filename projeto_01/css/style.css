@@ -24,6 +24,14 @@ body{
     text-shadow: 2px 2px 2px gainsboro;
 }
 
+.hero-content p{
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid aliceblue;
+    font-size: 20px;
+}
+
 .hero-menu ul{
     text-align: right;
     margin: 25px 25px 0 0;
@@ -57,8 +65,10 @@ main{
 
 .content-section{
     background-color: white;
-    padding: 15px;
+    padding: 0;
     margin-top: 15px;
+
+    overflow: auto;
 }
 
 .content-section h2{
@@ -70,6 +80,32 @@ main{
 .content-section p{
     margin: 0 15px 15px 15px;
     font-size: 18px; 
+}
+
+.card{
+    width: 32%;
+    float: left;    
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.card p{
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 15px;
+
+}
+
+.card-1, .card-2{
+    margin-right: 0;
 }
 
 .main-footer{
