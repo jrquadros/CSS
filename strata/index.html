@@ -235,8 +235,8 @@
                 <a href="#" class="button-default button-default-full  button-default-small button-default-stroke">Default</a>
             </p>
 
-            <h4>Tables</h5>
-            <h5>Default</h6>
+            <h4>Tables</h4>
+            <h5>Default</h5>
 
             <table class="table">
                 <thead>
@@ -281,6 +281,51 @@
                 </tbody>
             </table>
 
+            <h5>Alternate</h5>
+
+                <table class="table-alternate">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Description</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2"></td>
+                            <td>100.00</td>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <tr>
+                            <td>Item One</td>
+                            <td>Nam rick grimes malum</td>
+                            <td>29.99</td>
+                        </tr>
+                        <tr>
+                            <td>Item Two</td>
+                            <td>Zombie ipsum reversus ab viral inferno</td>
+                            <td>98.30</td>
+                        </tr>
+                        <tr>
+                            <td>Item three</td>
+                            <td>Zombie ipsum reversus ab viral inferno</td>
+                            <td>53.03</td>
+                        </tr>
+                        <tr>
+                            <td>Item Four</td>
+                            <td>Zombie ipsum reversus ab viral inferno</td>
+                            <td>64.90</td>
+                        </tr>
+                        <tr>
+                            <td>Item five</td>
+                            <td>Zombie ipsum reversus ab viral inferno</td>
+                            <td>56.90</td>
+                        </tr>
+                    </tbody>
+                </table>
+
             <h5>Buttons </h5>
 
             <p>
@@ -305,7 +350,51 @@
 
             <input type="submit" class="button-default" value="mandar">
 
-            
+            <h5>Forms</h5>
+
+            <form action="">
+
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="email">
+
+                <select name="" id="">
+                    <option value="0">Select</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                    <option value="4">Option 4</option>
+                </select>
+
+                <label for="low">
+                    <input type="radio" value="low" name="priority" id="low">Low priority
+                </label>
+
+                <label for="normal">
+                        <input type="radio" value="normal" name="priority" id="normal">Normal priority
+                </label>
+
+                <label for="hight">
+                        <input type="radio" value="hight" name="priority" id="hight">Hight priority
+                </label>
+
+                <label for="send-email">
+                    <input type="checkbox" name="copy" id="send-email">Email me a copy of this message
+                </label>
+
+                <label for="human">
+                    <input type="checkbox" name="copy" id="human">I am a human and not a robot
+                </label>
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Send a message"></textarea>
+
+                <input type="submit" class="button-default" value="Send">
+                <input type="reset" class="button-default-stroke" value="Clear">
+
+            </form>
 
         </section>
     
