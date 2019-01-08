@@ -162,4 +162,28 @@ li{
 .col-2{
     width: 50%;
     float: left;
+    box-sizing: content-box;
+}
+
+.button-default{
+    background-color: #49bf9d;
+    border: 2px solid #49bf9b;
+    color: white;
+    padding: .75em 1.5em;
+    border-radius: 5px;
+    font-size: .8em;
+    display: inline-block;
+    text-align: center;
+    margin: .5em 0;
+}
+
+.button-default-stroke{
+    background-color: white;
+    border-color: #efefef;
+    color: inherit;
+    font-size: .65em;
+}
+
+.button-default-full{
+    width: 100%;
 }
