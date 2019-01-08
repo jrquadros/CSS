@@ -8,9 +8,107 @@ body{
 }
 
 a{
-    transition: color .2s linear;
+    transition: color .2s linear, border .2s linear;
     text-decoration: none;
     border-bottom: 1px dotted;
+    color: #49bf9b;
+}
+
+a:hover{
+    border-bottom-color: transparent;
+}
+
+p{
+    margin: 0 0 2em;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #78787878;
+    font-weight: normal;
+    margin: 1em 0;
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 26px;
+}
+
+h4{
+    font-size: 22px;
+}
+
+h5{
+    font-size: 18px;
+}
+
+h6{
+    font-size: 15px;
+}
+
+sub, sup{
+    font-size: 12px;
+}
+
+blockquote{
+    border-left: 5px solid #efefef;
+    margin: 2em 0;
+    padding: .5em 0 .5em 1.5em;
+}
+
+code{
+    background: #f7f7f7;
+    border-radius: .35em;
+    border: 2px solid #efefef;
+    font-size: .9em; 
+    padding: .25em .65em;
+    font-family: 'Courier New', Courier, monospace; 
+    color: #929292;
+}
+
+pre code{
+    display: block;
+}
+
+ul, ol{
+    margin: 0;
+    padding-left: 1.1em;
+    font-size: 18px;
+}
+
+li{
+    padding-left: .5em;
+}
+
+.ul-alternate{
+    list-style-type: none;
+}   
+
+.ul-alternate li{
+    border-bottom: 1px solid rgba(27, 27, 27, 0.247);
+}
+
+.ul-alternate li:last-child{
+    border: 0;  
+}
+
+.ul-icons li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 2.5em;
+    color: #49bf9b;
+    transition: color .5s;
+}
+
+.ul-icons li:hover{
+    color: rgba(194, 23, 23, 0.308);
+    cursor: pointer;
 }
 
 .main-header{
@@ -55,4 +153,37 @@ a{
     margin-left: 30%;
     padding: 124px 54px 72px 54px;
     box-sizing: border-box;
+}
+
+.row{
+    overflow: auto;
+}
+
+.col-2{
+    width: 50%;
+    float: left;
+    box-sizing: content-box;
+}
+
+.button-default{
+    background-color: #49bf9d;
+    border: 2px solid #49bf9b;
+    color: white;
+    padding: .75em 1.5em;
+    border-radius: 5px;
+    font-size: .8em;
+    display: inline-block;
+    text-align: center;
+    margin: .5em 0;
+}
+
+.button-default-stroke{
+    background-color: white;
+    border-color: #efefef;
+    color: inherit;
+    font-size: .65em;
+}
+
+.button-default-full{
+    width: 100%;
 }

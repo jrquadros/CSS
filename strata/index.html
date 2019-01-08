@@ -111,7 +111,7 @@
                      sodales ut donec tincidunt pretium.</p>
         </article>
 
-        <a href="">Full Portifolio</a>
+        <a href="#" class="button-default">Full Portifolio</a>
     </section>  
              
     <section class="main-content-section">
@@ -157,17 +157,26 @@
     <section class="main-content-section">
         <h3>Elements</h3>
         <h4>Text</h4>
-        <p>Zombie ipsum reversus <b>ab viral inferno</b>, nam rick grimes malum <i>cerebro</i>.
-             De carne <strong>lumbering</strong> animata <em>corpora quaeritis</em>. Summus brains sit​​.</p>
+        <p>
+            Zombie ipsum reversus <b>ab viral inferno</b>, nam rick grimes malum <i>cerebro</i>.
+             De carne <strong>lumbering</strong> animata <em>corpora quaeritis</em>. Summus brains sit​​.
              Zombie ipsum <sup>reversus ab</sup> viral inferno, <code>code: for (;;) { ;;; }</code>
               nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​,
             <sub>morbo vel maleficia?</sub> De apocalypsi gorger <u>omero undead</u> survivor dictum.
             <a href="#">False</a>
+        </p>
+
+        <h1>H1 Title</h1>
+        <h2>H2 Title</h2>
+        <h3>H3 Title</h3>
+        <h4>H4 Title</h4>
+        <h5>H5 Title</h5>
+        <h6>H6 Title</h6>
 
             <blockquote cite="http://developer.mozilla.org">
-                <p>Zombie ipsum reversus ab viral inferno,
-                     Summus brains sit​​, morbo vel maleficia?
-                     De apocalypsi gorger omero undead survivor dictum.</p>
+                Zombie ipsum reversus ab viral inferno,
+                Summus brains sit​​, morbo vel maleficia?
+                De apocalypsi gorger omero undead survivor dictum.
             </blockquote>
 
             <p>De acordo com o site da mozilla,
@@ -188,42 +197,64 @@
 
             <h4>Listas</h4>
 
-            <h5>Não ordenada</h5>
+            <div class="row">
+                <div class="col-2">
+                    <h5>Não ordenada</h5>
 
-            <ul>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-            </ul>
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ul>
 
-            <h5>Alternate</h5>
+                    <h5>ordenada</h5>
 
-            <ul class="ul-alternate">
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-            </ul>
+                    <ol>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ol>
+                </div>
 
-            <h5>Icons</h5>
-            <ul>
+                <div class="col-2">
+                    <h5>Alternate</h5>
+
+                    <ul class="ul-alternate">
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ul>
+
+                    <h5>Icons</h5>
+            <ul class="ul-icons">
                 <li>
                     <i class="fab fa-twitter"></i>
                 </li>
 
                 <li>
-                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-github"></i>
                 </li>
 
                 <li>
-                    <i class="fab fa-github"></i>
+                    <i class="fas fa-code-branch"></i>
+                </li>
+
+                <li>
+                    <i class="fab fa-android"></i>
+                </li>
+
+                <li>
+                    <i class="fab fa-apple"></i>
                 </li>
             </ul>
+                </div>
+            </div>
 
             <h5>Actions</h5>
 
             <p>
                 <a href="" class="button-default">Default</a>
-                <a href=""class="button-default button-default-stroke"></a>
+                <a href=""class="button-default button-default-stroke">Default</a>
             </p>
 
             <p>
@@ -332,27 +363,38 @@
                     </tbody>
                 </table>
 
-            <h5>Buttons </h5>
+            <h5>Buttons</h5>
 
-            <p>
-                <button class="button-default">Default</button>
-                <button class="button-default button-default-stroke"></button>
-            </p>
+            <div class="row">
 
-            <p>
-                <button class="button-default button-default-small">Small</button>
-                <button class="button-default button-default-small button-default-stroke">Small</button>
-            </p>
+                <div class="col-2">
+                    <p>
+                        <button class="button-default">Default</button>
+                        <button class="button-default button-default-stroke">Default</button>
+                    </p>
+        
+                    <p>
+                        <button class="button-default button-default-small">Small</button>
+                        <button class="button-default button-default-small button-default-stroke">Small</button>
+                    </p>
+                </div>
+
+                <div class="col-2">
+                    <p>
+                        <button class="button-default button-full button-small">Default</button>
+                        <button class="button-default button-default-full button-default-small button-default-stroke">Default</button>
+                    </p>
+        
+                    <p>
+                        <button class="button-default  button-default-full button-default-small">Default</button>
+                        <button class="button-default button-default-full  button-default-small button-default-stroke">Default</button>
+                    </p>
+                </div>
+            </div>
+
+            
  
-            <p>
-                <button class="button-default button-full button-small">Default</button>
-                <button class="button-default button-default-full button-default-small button-default-stroke">Default</button>
-            </p>
-
-            <p>
-                <button class="button-default  button-default-full button-default-small">Default</button>
-                <button class="button-default button-default-full  button-default-small button-default-stroke">Default</button>
-            </p>
+            
 
             <input type="submit" class="button-default" value="mandar">
 
