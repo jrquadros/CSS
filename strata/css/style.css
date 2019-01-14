@@ -52,6 +52,10 @@ h6{
     font-size: 15px;
 }
 
+.is-invisible{
+    display: none;
+}
+
 sub, sup{
     font-size: 12px;
 }
@@ -193,7 +197,7 @@ input, label, textarea{
 }
 
 input, textarea{
-    background: #ccc;
+    background: #dfe1e4;
     padding: 15px;
     border-radius: 5px;
     border: none;
@@ -202,7 +206,7 @@ input, textarea{
 }
 
 input:focus, textarea:focus{
-    border: 3px solid #49bf9d;
+    border: 2px solid #49bf9d;
     outline: none;
 }
 
