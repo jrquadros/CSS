@@ -22,6 +22,10 @@ p{
     margin: 0 0 2em;
 }
 
+img{
+    max-width: 100%;
+}
+
 h1, h2, h3, h4, h5, h6{
     color: #78787878;
     font-weight: normal;
@@ -148,6 +152,11 @@ li{
     color: inherit;
 }
 
+.main-header-link img{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
 .main-header-link:hover{
     color: #49bf9d;
 }
@@ -157,6 +166,11 @@ li{
     margin-left: 30%;
     padding: 124px 54px 72px 54px;
     box-sizing: border-box;
+}
+
+.recent-works-card img{
+    border-radius: .7em;
+    overflow: hidden;
 }
 
 /* Grid */
@@ -197,7 +211,7 @@ input, label, textarea, select{
 }
 
 input, textarea, select{
-    background: #e7eaee;
+    background: rgba(233, 227, 227, 0.678);
     padding: 15px;
     border-radius: 5px;
     border: none;
@@ -250,6 +264,9 @@ textarea{
     width: 100%;
 }
 
+.image-link{
+    border: 0;
+}
 .table{
     width: 100%;
     margin: 0 0 2em 0;
