@@ -200,19 +200,23 @@ li{
     margin-left: 3%;
 }
 
-input, label, textarea{
+input, label, textarea, select{
     display: inline-block;
     width: 100%;
     box-sizing: border-box;
 }
 
-input, textarea{
+input, textarea, select{
     background: rgba(233, 227, 227, 0.678);
     padding: 15px;
     border-radius: 5px;
     border: none;
     margin-bottom: 15px;
     border: 2px solid transparent;
+}
+
+input[type="radio"],input[type="checkbox"]{
+    width: auto;
 }
 
 input:focus, textarea:focus{
