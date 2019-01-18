@@ -197,6 +197,26 @@ li{
     border-radius: 1em;
 }
 
+.main-footer{
+    position: fixed;
+    bottom: 0;
+    width: 30%;
+    left: 0;
+    padding: 0 54px 150px 0;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.copyright{
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.copyright li{
+    list-style-type: none;
+    display: inline-block;
+}
+
 /* Grid */
 
 .row{
@@ -298,7 +318,7 @@ textarea{
 .button-default-stroke:hover{
     color: #49bf9d;
     border-color: #49bf9d;
-    background-color: white;
+    background-color: white
 }
 
 .button-default-small{
