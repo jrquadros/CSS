@@ -26,6 +26,18 @@ img{
     max-width: 100%;
 }
 
+.img-left{
+    float: left;
+    max-height: 100px;
+    margin-right: 5px;
+}
+
+.img-right{
+    float: right;
+    max-height: 100px;
+    margin-left: 5px;
+}
+
 h1, h2, h3, h4, h5, h6{
     color: #78787878;
     font-weight: normal;
