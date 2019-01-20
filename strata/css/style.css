@@ -68,8 +68,13 @@ h6{
     font-size: 15px;
 }
 
-.is-invisible{
+.hidden{
     display: none;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    display: block;
 }
 
 sub, sup{
@@ -80,6 +85,14 @@ blockquote{
     border-left: 5px solid #efefef;
     margin: 2em 0;
     padding: .5em 0 .5em 1.5em;
+}
+
+blockquote p{
+    margin-bottom: .5em;
+}
+
+blockquote p:last-child{
+    margin-bottom: 0;
 }
 
 code{
@@ -205,6 +218,12 @@ li{
     padding: 0 54px 150px 0;
     box-sizing: border-box;
     text-align: right;
+
+}
+
+.icon-footer{
+    border: 0;
+    color: rgba(221, 221, 221, 0.329);
 }
 
 .copyright{
@@ -215,6 +234,10 @@ li{
 .copyright li{
     list-style-type: none;
     display: inline-block;
+}
+
+.copyright li a{
+    border: 0;
 }
 
 /* Grid */
