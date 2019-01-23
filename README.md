@@ -1,2 +1,2 @@
 # CSS
-Exercise and page codes created during the course Web Design "serFrontend".
+Exercícios e páginas criadas durante o curso "serFrontend".
